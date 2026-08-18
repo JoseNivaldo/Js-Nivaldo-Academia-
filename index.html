@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Gym Challenge</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <div class="container">
+
+        <header>
+            <div class="icone"></div>
+            <h1>GYM CHALLENGE</h1>
+            <p>Monte seu caminho até o próximo nível!</p>
+        </header>
+
+        <main class="quiz">
+
+            <div class="progresso">
+                <div id="barraProgresso"></div>
+            </div>
+
+            <p id="contador">Pergunta 1</p>
+
+            <h2 id="titulo">Seu Desafio Começa!</h2>
+
+            <div class="card">
+
+                <div class="halteres"></div>
+
+                <p id="pergunta">
+                    Você acabou de entrar na academia.
+                    Qual será seu principal objetivo?
+                </p>
+
+                <div id="respostas"></div>
+
+            </div>
+
+            <div id="resultado"></div>
+
+            <button id="reiniciar" onclick="reiniciarJogo()">
+                JOGAR NOVAMENTE
+            </button>
+
+        </main>
+
+        <footer>
+            <p>FOCO • FORÇA • DISCIPLINA</p>
+        </footer>
+
+    </div>
+
+    <script src="script.js"></script>
+
+</body>
+</html>
