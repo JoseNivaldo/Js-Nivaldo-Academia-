@@ -1,0 +1,13 @@
+MISSÃO ACADEMIA | PULSOFIT
+
+Arquivos: index.html, style.css, script.js, perguntas.js, aleatorio.js.
+
+Para publicar no GitHub Pages:
+1. Crie um repositório público no GitHub.
+2. Envie os cinco arquivos para a raiz do repositório (não deixe dentro de outra pasta).
+3. Vá a Settings > Pages > Deploy from a branch > main > /(root) > Save.
+4. Abra o endereço https://SEU-USUARIO.github.io/NOME-REPOSITORIO/.
+
+IMPORTANTE: O jogo usa módulos JavaScript. Abrir index.html diretamente por file:// pode causar erro de CORS. Use GitHub Pages ou servidor HTTP.
+
+Recursos da Alura: import/export, addEventListener, classList.add/remove, iniciaJogo, aleatorio.js, replace(), chave proxima e caminhos de perguntas diferentes.
